@@ -1,0 +1,1669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1338</width>
+    <height>728</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:darkblue;</string>
+  </property>
+  <widget class="QPushButton" name="ip">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>50</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string>IP Scanner</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;color:darkblue;
+ border-radius:60x;
+border: 2px solid orange;
+padding: 10px;
+box-shadow: 5px 10px ;</string>
+   </property>
+   <property name="text">
+    <string>IP</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <activeon>C:/Users/Ghost Country/Downloads/download__1_-removebg-preview.png</activeon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Input">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>50</y>
+     <width>551</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;
+ border-radius: 2px;
+border: 2px solid red;
+padding: 10px;
+box-shadow: 5px 10px ;</string>
+   </property>
+   <property name="placeholderText">
+    <string>www.example.com</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>-10</y>
+     <width>241</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:white;</string>
+   </property>
+   <property name="text">
+    <string>Web Scrapy Tool</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="req">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>50</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string>Check server Req</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;color:darkblue;
+ border-radius:60x;
+border: 2px solid orange;
+padding: 10px;
+box-shadow: 5px 10px ;</string>
+   </property>
+   <property name="text">
+    <string>Req Method</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <activeon>C:/Users/Ghost Country/Downloads/download__1_-removebg-preview.png</activeon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="dmnV">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>50</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string>Check domain Version</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;color:darkblue;
+ border-radius:60x;
+border: 2px solid orange;
+padding: 10px;
+box-shadow: 5px 10px ;</string>
+   </property>
+   <property name="text">
+    <string>Domain Version</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <activeon>C:/Users/Ghost Country/Downloads/download__1_-removebg-preview.png</activeon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="headerinfo">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>50</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string>About site header info</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;color:darkblue;
+ border-radius:60x;
+border: 2px solid orange;
+padding: 10px;
+box-shadow: 5px 10px ;</string>
+   </property>
+   <property name="text">
+    <string>Header</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <activeon>C:/Users/Ghost Country/Downloads/download__1_-removebg-preview.png</activeon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="adminpage">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>110</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string>Find Admin page</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;color:darkblue;
+ border-radius:60x;
+border: 2px solid orange;
+padding: 10px;
+box-shadow: 5px 10px ;</string>
+   </property>
+   <property name="text">
+    <string>Admin Page</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <activeon>C:/Users/Ghost Country/Downloads/download__1_-removebg-preview.png</activeon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cmnts">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>110</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string>comments of webpage</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;color:darkblue;
+ border-radius:60x;
+border: 2px solid orange;
+padding: 10px;
+box-shadow: 5px 10px ;</string>
+   </property>
+   <property name="text">
+    <string>Comments</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <activeon>C:/Users/Ghost Country/Downloads/download__1_-removebg-preview.png</activeon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="firewall">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>110</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string>firewall scanner</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;color:darkblue;
+ border-radius:60x;
+border: 2px solid orange;
+padding: 10px;
+box-shadow: 5px 10px ;</string>
+   </property>
+   <property name="text">
+    <string>Firewall</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <activeon>C:/Users/Ghost Country/Downloads/download__1_-removebg-preview.png</activeon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Kywds">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>110</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string>Specific words</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;color:darkblue;
+ border-radius:60x;
+border: 2px solid orange;
+padding: 10px;
+box-shadow: 5px 10px ;</string>
+   </property>
+   <property name="text">
+    <string>Keywords</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <activeon>C:/Users/Ghost Country/Downloads/download__1_-removebg-preview.png</activeon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="shorlinker">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>170</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string>Create short link</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;color:darkblue;
+ border-radius:60x;
+border: 2px solid orange;
+padding: 10px;
+box-shadow: 5px 10px ;</string>
+   </property>
+   <property name="text">
+    <string>Short Linker</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <activeon>C:/Users/Ghost Country/Downloads/download__1_-removebg-preview.png</activeon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="wbtech">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>170</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string>Website technologies</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;color:darkblue;
+ border-radius:60x;
+border: 2px solid orange;
+padding: 10px;
+box-shadow: 5px 10px ;</string>
+   </property>
+   <property name="text">
+    <string>Web Tech</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <activeon>C:/Users/Ghost Country/Downloads/download__1_-removebg-preview.png</activeon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="subdomains">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>170</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string>Main-Domain/Sub-Domain</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;color:darkblue;
+ border-radius:60x;
+border: 2px solid orange;
+padding: 10px;
+box-shadow: 5px 10px ;</string>
+   </property>
+   <property name="text">
+    <string>Domains/Sub</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <activeon>C:/Users/Ghost Country/Downloads/download__1_-removebg-preview.png</activeon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="emails">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>170</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string>Emails finder</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;color:darkblue;
+ border-radius:60x;
+border: 2px solid orange;
+padding: 10px;
+box-shadow: 5px 10px ;</string>
+   </property>
+   <property name="text">
+    <string>Emails</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <activeon>C:/Users/Ghost Country/Downloads/download__1_-removebg-preview.png</activeon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="output">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>350</y>
+     <width>1311</width>
+     <height>331</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>11</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string>Result</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;
+border: 2px solid orange;
+color:darkblue;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>310</y>
+     <width>191</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:white;</string>
+   </property>
+   <property name="text">
+    <string>Results</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="portscanner">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>230</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string>Portscanner</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;color:darkblue;
+ border-radius:60x;
+border: 2px solid orange;
+padding: 10px;
+box-shadow: 5px 10px ;</string>
+   </property>
+   <property name="text">
+    <string>Ports/Scan</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <activeon>C:/Users/Ghost Country/Downloads/download__1_-removebg-preview.png</activeon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="exit">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>230</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string>Sure exit?</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;color:red;
+ border-radius:60x;
+border: 2px solid orange;
+padding: 10px;
+box-shadow: 5px 10px ;</string>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <activeon>C:/Users/Ghost Country/Downloads/download__1_-removebg-preview.png</activeon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cms">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>230</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string>Detecting all CMS</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;color:darkblue;
+ border-radius:60x;
+border: 2px solid orange;
+padding: 10px;
+box-shadow: 5px 10px ;</string>
+   </property>
+   <property name="text">
+    <string>CMS</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <activeon>C:/Users/Ghost Country/Downloads/download__1_-removebg-preview.png</activeon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="clear">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>230</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string>Clear all text?</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;color:green;
+ border-radius:60x;
+border: 2px solid orange;
+padding: 10px;
+box-shadow: 5px 10px ;</string>
+   </property>
+   <property name="text">
+    <string>Clear</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <activeon>C:/Users/Ghost Country/Downloads/download__1_-removebg-preview.png</activeon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pglinks">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>110</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string>Check pages details</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;color:darkblue;
+ border-radius:60x;
+border: 2px solid orange;
+padding: 10px;
+box-shadow: 5px 10px ;</string>
+   </property>
+   <property name="text">
+    <string>Page Details</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <activeon>C:/Users/Ghost Country/Downloads/download__1_-removebg-preview.png</activeon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="dminfo">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>50</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string>Get domain info</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;color:darkblue;
+ border-radius:60x;
+border: 2px solid orange;
+padding: 10px;
+box-shadow: 5px 10px ;</string>
+   </property>
+   <property name="text">
+    <string>Domain Info</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <activeon>C:/Users/Ghost Country/Downloads/download__1_-removebg-preview.png</activeon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="images">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>170</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string>Note: Check current Dir Downloads all imags</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;color:darkblue;
+ border-radius:60x;
+border: 2px solid orange;
+padding: 10px;
+box-shadow: 5px 10px ;</string>
+   </property>
+   <property name="text">
+    <string>Images</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <activeon>C:/Users/Ghost Country/Downloads/download__1_-removebg-preview.png</activeon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="domainfinder">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>230</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string>Domain Finder </string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;color:darkblue;
+ border-radius:60x;
+border: 2px solid orange;
+padding: 10px;
+box-shadow: 5px 10px ;</string>
+   </property>
+   <property name="text">
+    <string>Domain Finder</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <activeon>C:/Users/Ghost Country/Downloads/download__1_-removebg-preview.png</activeon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>-10</y>
+     <width>61</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:white;</string>
+   </property>
+   <property name="text">
+    <string>V 1.0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="tags">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>230</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string>Tags Detailer</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;color:darkblue;
+ border-radius:60x;
+border: 2px solid orange;
+padding: 10px;
+box-shadow: 5px 10px ;</string>
+   </property>
+   <property name="text">
+    <string>Tags</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <activeon>C:/Users/Ghost Country/Downloads/download__1_-removebg-preview.png</activeon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="metadata">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>170</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string>show A-Z data about website</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;color:darkblue;
+ border-radius:60x;
+border: 2px solid orange;
+padding: 10px;
+box-shadow: 5px 10px ;</string>
+   </property>
+   <property name="text">
+    <string>Meta Data</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <activeon>C:/Users/Ghost Country/Downloads/download__1_-removebg-preview.png</activeon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="MediaLinks">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>110</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string>Social Media Links</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;color:darkblue;
+ border-radius:60x;
+border: 2px solid orange;
+padding: 10px;
+box-shadow: 5px 10px ;</string>
+   </property>
+   <property name="text">
+    <string>Media Links</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <activeon>C:/Users/Ghost Country/Downloads/download__1_-removebg-preview.png</activeon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="programming">
+   <property name="geometry">
+    <rect>
+     <x>870</x>
+     <y>230</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string>Languages Detector</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;color:darkblue;
+ border-radius:60x;
+border: 2px solid orange;
+padding: 10px;
+box-shadow: 5px 10px ;</string>
+   </property>
+   <property name="text">
+    <string>programming </string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <activeon>C:/Users/Ghost Country/Downloads/download__1_-removebg-preview.png</activeon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Script">
+   <property name="geometry">
+    <rect>
+     <x>870</x>
+     <y>110</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string>Find all scirpt of site</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;color:darkblue;
+ border-radius:60x;
+border: 2px solid orange;
+padding: 10px;
+box-shadow: 5px 10px ;</string>
+   </property>
+   <property name="text">
+    <string>Scripts</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <activeon>C:/Users/Ghost Country/Downloads/download__1_-removebg-preview.png</activeon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="drivelinks">
+   <property name="geometry">
+    <rect>
+     <x>870</x>
+     <y>170</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string>Crawl google drive links</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;color:darkblue;
+ border-radius:60x;
+border: 2px solid orange;
+padding: 10px;
+box-shadow: 5px 10px ;</string>
+   </property>
+   <property name="text">
+    <string>Goolge drive links</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <activeon>C:/Users/Ghost Country/Downloads/download__1_-removebg-preview.png</activeon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="geolocation">
+   <property name="geometry">
+    <rect>
+     <x>1010</x>
+     <y>110</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string>Geolocation of domain</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;color:darkblue;
+ border-radius:60x;
+border: 2px solid orange;
+padding: 10px;
+box-shadow: 5px 10px ;</string>
+   </property>
+   <property name="text">
+    <string>Geo Location</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <activeon>C:/Users/Ghost Country/Downloads/download__1_-removebg-preview.png</activeon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="files">
+   <property name="geometry">
+    <rect>
+     <x>1010</x>
+     <y>170</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string>txt,pdf,doc ...</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;color:darkblue;
+ border-radius:60x;
+border: 2px solid orange;
+padding: 10px;
+box-shadow: 5px 10px ;</string>
+   </property>
+   <property name="text">
+    <string>Files</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <activeon>C:/Users/Ghost Country/Downloads/download__1_-removebg-preview.png</activeon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="names">
+   <property name="geometry">
+    <rect>
+     <x>1010</x>
+     <y>230</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string>person names in site</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;color:darkblue;
+ border-radius:60x;
+border: 2px solid orange;
+padding: 10px;
+box-shadow: 5px 10px ;</string>
+   </property>
+   <property name="text">
+    <string>Persons Names</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <activeon>C:/Users/Ghost Country/Downloads/download__1_-removebg-preview.png</activeon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="forms">
+   <property name="geometry">
+    <rect>
+     <x>1150</x>
+     <y>110</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string>Find forms login page</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;color:darkblue;
+ border-radius:60x;
+border: 2px solid orange;
+padding: 10px;
+box-shadow: 5px 10px ;</string>
+   </property>
+   <property name="text">
+    <string>Forms</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <activeon>C:/Users/Ghost Country/Downloads/download__1_-removebg-preview.png</activeon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cookies">
+   <property name="geometry">
+    <rect>
+     <x>1150</x>
+     <y>170</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string>Cookies finder</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;color:darkblue;
+ border-radius:60x;
+border: 2px solid orange;
+padding: 10px;
+box-shadow: 5px 10px ;</string>
+   </property>
+   <property name="text">
+    <string>Cookies</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <activeon>C:/Users/Ghost Country/Downloads/download__1_-removebg-preview.png</activeon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sourcecode">
+   <property name="geometry">
+    <rect>
+     <x>1150</x>
+     <y>230</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string>Proved source of web page</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;color:darkblue;
+ border-radius:60x;
+border: 2px solid orange;
+padding: 10px;
+box-shadow: 5px 10px ;</string>
+   </property>
+   <property name="text">
+    <string>Source Code</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <activeon>C:/Users/Ghost Country/Downloads/download__1_-removebg-preview.png</activeon>
+    </iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="portnum">
+   <property name="geometry">
+    <rect>
+     <x>1160</x>
+     <y>20</y>
+     <width>121</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>portscanner num</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;
+ border-radius: 2px;
+border: 2px solid red;
+
+box-shadow: 5px 10px ;</string>
+   </property>
+   <property name="placeholderText">
+    <string>port num</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
